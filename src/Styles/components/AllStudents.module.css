@@ -1,0 +1,43 @@
+.ordersContainer {
+  margin: 50px 2px;
+  /* margin: 2px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ordersContainer table th {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  color: #fdfdfd;
+  background-color: var(--blue);
+}
+
+.ordersContainer table,
+.ordersContainer table th,
+.ordersContainer table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.editStatus {
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  align-self: center;
+  padding: 5px 8px;
+}
+.green {
+  background-color: var(--green);
+}
+.red {
+  background-color: var(--red);
+}

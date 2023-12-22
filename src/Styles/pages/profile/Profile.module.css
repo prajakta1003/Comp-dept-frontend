@@ -1,0 +1,164 @@
+.container {
+  width: 500px;
+  margin: 120px auto;
+  margin-top: 150px;
+  padding: 30px;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+
+.profile_container h3 {
+  text-align: center;
+  font-weight: 400;
+  color: #333;
+  margin: 30px 10px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.profile_container h3 span {
+  color: var(--blue);
+  font-size: 1.1rem;
+  background-color: rgb(207, 207, 255);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.profile_container p {
+  text-align: center;
+}
+
+.horizontal_row {
+  background-color: rgb(198, 198, 198);
+  width: 90%;
+  height: 0.5px;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+.profile_container h4 {
+  text-align: center;
+  font-weight: 300;
+  color: #3e3e3e;
+  margin: 18px 10px 18px;
+  font-size: 1.2rem;
+}
+
+.information p {
+  font-weight: 300;
+  margin: 5px 10px;
+  font-size: 14px;
+}
+
+.profile_container h5 {
+  text-align: center;
+  font-weight: 300;
+  color: #ff1a1a;
+  margin: 18px 10px 18px;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile_container button {
+  background: #8f8f8f;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.feesBtn {
+  display: flex;
+}
+.profile_container button:hover {
+  background: #6b6b6b;
+}
+
+.contact_line {
+  margin-top: 20px;
+  font-weight: 300;
+  color: var(--green);
+}
+
+.contact_line a {
+  color: blue;
+  text-decoration: underline;
+}
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"],
+.field select {
+  padding: 10px 6px;
+  font-size: 14px;
+  font-weight: 300;
+  outline: none;
+  border: 1px solid #c5c5c5;
+  width: 100%;
+  background: #f2f2f22d;
+  border-radius: 5px;
+}
+
+.field b {
+  font-weight: 300;
+  font-size: 13px;
+  color: #636363;
+  position: absolute;
+  top: -9px;
+  left: 4px;
+  background: #fdfdfd;
+  padding: 0px 5px;
+}
+.field {
+  margin: 10px 10px;
+  position: relative;
+  margin-bottom: 22px !important;
+}
+.button {
+  background: var(--blue) !important;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  color: #fdfdfd;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.error {
+  border: 1px solid var(--red);
+  background: #ffe9e9;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: var(--red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.error i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.error_field {
+  border-color: var(--red) !important;
+}
+@media screen and (max-width: 530px) {
+  .container {
+    width: 95%;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+  }
+}
