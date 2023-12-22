@@ -3,7 +3,7 @@ import styles from "../../../Styles/pages/admin/SendMail.module.css";
 import Header from "../../../Components/Header";
 import Dialog from "../../../Components/Dialog";
 import Spinner from "../../../Components/Spinner";
-import e from "cors";
+
 const Index = () => {
   const [mailDetails, setMailDetails] = useState({
     subject: "",
